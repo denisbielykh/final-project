@@ -5,811 +5,649 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="fonts/inter-v11-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" href="fonts/inter-v11-latin-500.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" href="fonts/inter-v11-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" href="fonts/inter-v11-latin-800.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" href="fonts/inter-v11-latin-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./img/icons/logo-icon.png" type="image/png">
-    <title>Grid</title>
+    <link rel="preload" href="./fonts/libre-franklin-v12-latin-regular.woff2" as="font" type="font/woff2"
+        crossorigin="anonymous">
+    <link rel="preload" href="./fonts/libre-franklin-v12-latin-500.woff2" as="font" type="font/woff2"
+        crossorigin="anonymous">
+    <link rel="preload" href="./fonts/libre-franklin-v12-latin-600.woff2" as="font" type="font/woff2"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./sass/style.css">
+    <link rel="icon" href="./img/logo-first-letter.png" type="image/png">
+    <title>Digits</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="container">
-                <div class="header__body">
-                    <div class="header__burger">
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__body">
+                <a href="#" class="header__logo">
+                    <svg width="81" height="28" viewBox="0 0 81 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M18.1621 0.247648H18.0313V4.27196H22.8604V4.07759H18.1621V0.247648ZM42.0344 4.07759V4.27196H46.8636V4.07759H42.0344ZM10.8656 18.9762C9.84408 20.3073 8.29627 21.1431 6.46985 21.1431C2.72415 21.1431 0 18.2332 0 13.4969C0 8.91539 2.72415 5.78881 6.46985 5.78881C8.32722 5.78881 9.81312 6.59367 10.8037 7.92479V0H15.4781V20.7716H10.8656V18.9762ZM4.92204 13.6826C4.92204 16.4068 6.09837 17.6141 7.95575 17.6141C9.93694 17.6141 10.9895 16.1282 10.9895 13.5898V13.2493C10.9895 10.7108 9.9679 9.31782 7.95575 9.31782C6.12933 9.31782 4.92204 10.6489 4.92204 13.3731V13.6826ZM18.0932 6.16029H22.7985V20.7716H18.0932V6.16029ZM38.4711 11.299C38.4711 14.6732 35.8398 16.8092 31.7226 16.8092C30.8558 16.8092 30.051 16.7164 29.308 16.4997C28.658 16.5616 28.2246 16.8711 28.2246 17.2736C28.2246 17.7689 28.8746 18.1094 29.9272 18.1094H33.7348C38.2234 18.1094 40.638 19.7501 40.638 22.7528C40.638 26.0961 37.6662 27.9535 32.2489 27.9535C26.9863 27.9535 24.3241 26.5604 24.3241 23.9292C24.3241 22.5052 25.2528 21.4527 26.9554 20.8335C25.5314 20.4621 24.6956 19.5334 24.6956 18.2951C24.6956 17.0569 25.6242 16.0663 27.2649 15.54C25.8719 14.5804 25.067 13.0945 25.067 11.3609C25.067 8.17244 27.946 5.81977 31.9084 5.81977C34.3849 5.81977 36.397 6.77941 37.5114 8.32722C38.0377 6.96515 39.0283 6.16029 40.5142 6.16029V10.2465C39.8641 9.9679 39.0283 9.93694 38.3782 10.4322C38.4401 10.7108 38.4711 10.9895 38.4711 11.299ZM36.7994 23.4648C36.7994 22.3813 35.7779 21.917 33.2395 21.917H30.3915C28.9675 22.0408 28.0079 22.598 28.0079 23.5577C28.0079 24.5792 29.4319 25.1674 32.3417 25.1674C35.2207 25.1674 36.7994 24.5483 36.7994 23.4648ZM29.339 11.4228C29.339 12.8778 30.2986 13.8065 31.8155 13.8065C33.3633 13.8065 34.3229 12.9087 34.3229 11.3919V11.2371C34.3229 9.78216 33.3014 8.79156 31.8155 8.79156C30.3605 8.79156 29.339 9.81312 29.339 11.2371V11.4228ZM42.0963 6.16029H46.8017V20.7716H42.0963V6.16029ZM57.5522 17.3355V20.7716H54.0851C51.0514 20.5549 50.4632 19.1619 50.4013 16.5616V9.4726H48.4511V6.16029H50.4013V3.31231L55.0138 1.05251V6.16029H57.6451V9.4726H54.9828V16.3758C54.9828 17.0259 55.2924 17.3045 55.9425 17.3355H57.5522ZM71.86 16.283C71.86 19.1619 69.2287 21.236 65.6688 21.236C62.4803 21.236 60.1895 20.0596 58.6417 18.388L61.5206 16.1591C62.4803 17.2736 63.9043 18.0165 65.4521 18.0165C66.6594 18.0165 67.4023 17.5522 67.4023 16.7164C67.4023 15.9074 66.221 15.6515 64.5604 15.2917C64.3781 15.2522 64.1901 15.2114 63.9971 15.1685C61.5516 14.6423 58.8584 13.6207 58.8584 10.618C58.8584 7.83192 61.4587 5.78881 64.9258 5.78881C68.0214 5.78881 70.2503 6.93419 71.7362 8.66774C71.7362 8.72965 68.9501 10.7728 68.9501 10.7728C67.9595 9.65834 66.6284 8.9773 65.1735 8.9773C63.9971 8.9773 63.2851 9.44164 63.2851 10.2155C63.2851 11.0945 64.0863 11.2613 66.2116 11.7036L66.3498 11.7324C68.8573 12.2277 71.86 13.1873 71.86 16.283Z"
+                            fill="#1E266D" />
+                        <path
+                            d="M78.4605 20.4084C79.8481 20.4084 80.9729 19.2836 80.9729 17.896C80.9729 16.5084 79.8481 15.3835 78.4605 15.3835C77.0729 15.3835 75.9481 16.5084 75.9481 17.896C75.9481 19.2836 77.0729 20.4084 78.4605 20.4084Z"
+                            fill="#FF2E6A" />
+                        <path
+                            d="M78.4605 10.3586C79.8481 10.3586 80.9729 9.23375 80.9729 7.84617C80.9729 6.45859 79.8481 5.33374 78.4605 5.33374C77.0729 5.33374 75.9481 6.45859 75.9481 7.84617C75.9481 9.23375 77.0729 10.3586 78.4605 10.3586Z"
+                            fill="#FF2E6A" />
+                    </svg>
+                </a>
+                <nav class="header__nav nav">
+                    <ul class="nav__menu">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Homepages</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Company</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__mob mob">
+                    <a class="mob__tel" href="tel:+00123456789">
+                        <img class="mob__icon" src="./img/header/mob-tel.ico" alt="phone icon">
+                    </a>
+                    <div class="mob__burger">
                         <span></span>
                     </div>
-                    <a class="header__logo" href="#">
-                        <svg width="70" height="64" viewBox="0 0 70 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M47.25 17.6H22.75C20.817 17.6 19.25 19.0327 19.25 20.8V43.2C19.25 44.9673 20.817 46.4 22.75 46.4H47.25C49.183 46.4 50.75 44.9673 50.75 43.2V20.8C50.75 19.0327 49.183 17.6 47.25 17.6Z"
-                                stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M19.25 27.2H50.75" stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path d="M29.75 46.4V27.2" stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                        <span>Grid</span>
-                    </a>
-                    <nav class="header__nav">
-                        <ul class="header__menu">
-                            <li><a href="#">How it works</a></li>
-                            <li><a href="#">Who we are</a></li>
-                            <li><a href="#">What we do</a></li>
-                            <li><a href="#">Contact us</a></li>
-                        </ul>
-                    </nav>
-                    <a class="header__link" href="#">Sign In</a>
+                </div>
+                <div class="header__contacts">
+                    <a class="header__tel" href="tel:+00123456789">+00 123 456 789</a>
+                    <a class="btn btn_blue btn_sm" href="#">Contact us</a>
                 </div>
             </div>
-        </header>
-        <main class="page">
-            <section class="main">
-                <div class="container main__container">
-                    <div class="main__titles">
-                        <h1 class="main__title">
-                            <span class="main__title_combine"> Combine </span>
-                            <span class="main__title_cool">cool</span> images
-                        </h1>
-                        <h2 class="main__subtitle">To create any grid by scaling and resizing</h2>
-                        <div class="main__arrow">
-                            <svg width="46" height="46" viewBox="0 0 46 46" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M23 15.16L23 30.84" stroke="#6C5CE7" stroke-width="4" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                <path d="M30.84 23L23 30.84L15.16 23" stroke="#6C5CE7" stroke-width="4"
-                                    stroke-linecap="round" stroke-linejoin="round" />
+        </div>
+    </header>
+    <main class="main">
+        <section class="good-design">
+            <div class="wrapper">
+                <div class="good-design__body">
+                    <h1 class="good-design__title">
+                        Good design meets great user experience
+                    </h1>
+                    <p class="good-design__text">For everyone, from beginners to experts</p>
+                    <div class="good-design__box">
+                        <div class="good-design__buttons">
+                            <a class="btn btn_blue btn_big" href="#">Buy Digits</a>
+                            <a class="btn btn_transparent btn_big" href="#">See the Features</a>
+                        </div>
+                        <div class="good-design__img">
+                            <svg class="good-design__svg" width="919" height="608" viewBox="0 0 919 608" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect x="797" y="228" width="64" height="64" rx="4" fill="#B5F2E3" />
+                                <circle cx="101.5" cy="386.5" r="89.5" fill="#FACFCA" />
+                                <path
+                                    d="M62.4773 2.7887L6.59841 26.6789C3.71756 27.9106 3.30694 31.8261 5.86959 33.6286L53.6501 67.2369C56.0957 68.9571 59.4952 67.4839 59.9122 64.5231L68.0106 7.02454C68.4451 3.93951 65.3419 1.56397 62.4773 2.7887Z"
+                                    fill="#F8AEC3" />
+                                <circle cx="869" cy="99" r="16" fill="#FED385" />
+                                <g filter="url(#filter0_dd_1_171)">
+                                    <rect x="115" y="36" width="719" height="533" rx="18" fill="white" />
+                                </g>
+                                <path
+                                    d="M114 54C114 44.0589 122.059 36 132 36H816C825.941 36 834 44.0589 834 54V68H114V54Z"
+                                    fill="#BDC2D5" />
+                                <circle cx="135" cy="52" r="4" fill="white" />
+                                <circle cx="149" cy="52" r="4" fill="white" />
+                                <circle cx="163" cy="52" r="4" fill="white" />
+                                <path
+                                    d="M665.952 290.672C665.064 293.781 650.85 368.845 675.279 438.579C679.277 439.467 678.833 428.363 678.833 428.363L674.391 332.867L676.612 296.89L665.952 290.672Z"
+                                    fill="#DE8E68" />
+                                <path
+                                    d="M732.577 570.053H689.493C689.493 570.053 674.835 418.592 674.835 415.483C677.5 418.148 677.056 419.036 688.16 422.145C694.823 429.252 741.904 547.4 741.904 547.4L732.577 570.053Z"
+                                    fill="#56CAD8" />
+                                <path
+                                    d="M711.172 234.262C731.928 240.201 715.539 303.601 707.855 308.914C700.17 314.226 664.149 299.275 661.244 292.55C658.339 285.826 681.786 225.854 711.172 234.262Z"
+                                    fill="#FCC486" />
+                                <path
+                                    d="M729.912 217.384C796.093 217.384 797.425 407.487 788.098 415.482C778.77 423.477 683.274 431.028 674.835 415.482C666.396 399.937 657.957 217.384 729.912 217.384Z"
+                                    fill="#FED385" />
+                                <path
+                                    d="M753.897 230.265C771.219 217.384 811.639 268.908 811.194 278.235C810.75 287.563 776.994 307.106 769.887 305.329C762.78 303.553 729.37 248.503 753.897 230.265Z"
+                                    fill="#FED892" />
+                                <path
+                                    d="M804.976 280.012C821.41 307.106 825.852 343.083 825.852 349.302C825.852 366.18 817.413 374.619 812.083 374.619C790.763 374.619 720.584 320.431 715.699 315.989C710.813 311.548 725.026 298.223 727.247 300.443C729.468 302.664 754.785 318.654 791.651 334.644C786.321 327.982 770.775 307.994 770.331 301.776C769.887 295.558 804.976 280.012 804.976 280.012Z"
+                                    fill="#DE8E68" />
+                                <path
+                                    d="M706.137 267.04L678.389 271.227L685.565 318.792L713.314 314.605L706.137 267.04Z"
+                                    fill="#333333" />
+                                <path
+                                    d="M726.349 310.549C729.66 304.813 725.887 296.434 717.92 291.835C709.954 287.235 700.811 288.156 697.499 293.892C694.188 299.628 697.961 308.007 705.928 312.606C713.894 317.206 723.037 316.284 726.349 310.549Z"
+                                    fill="#DE8E68" />
+                                <path
+                                    d="M741.46 225.823C741.46 231.597 718.364 232.042 718.364 225.823V190.734H741.46V225.823Z"
+                                    fill="#D37C59" />
+                                <path
+                                    d="M723.916 211.61C736.549 211.61 746.79 193.414 746.79 170.969C746.79 148.523 736.549 130.327 723.916 130.327C711.282 130.327 701.041 148.523 701.041 170.969C701.041 193.414 711.282 211.61 723.916 211.61Z"
+                                    fill="#DE8E68" />
+                                <path
+                                    d="M745.236 182.739C748.547 182.739 751.232 180.055 751.232 176.743C751.232 173.431 748.547 170.747 745.236 170.747C741.924 170.747 739.239 173.431 739.239 176.743C739.239 180.055 741.924 182.739 745.236 182.739Z"
+                                    fill="#DE8E68" />
+                                <path
+                                    d="M823.187 124.553C805.864 124.553 791.651 136.99 772.996 136.99C759.671 136.99 746.79 121 728.135 121C704.15 121 696.599 133.881 696.599 142.764C696.599 149.871 701.041 157.866 702.374 157.866C702.374 155.645 705.039 147.65 705.927 146.762C706.815 149.871 725.47 171.635 741.904 171.635V171.759C742.807 171.155 743.857 170.808 744.942 170.754C746.027 170.7 747.106 170.942 748.064 171.454C749.022 171.965 749.823 172.728 750.382 173.659C750.94 174.591 751.235 175.657 751.235 176.743C751.235 177.829 750.94 178.895 750.382 179.826C749.823 180.758 749.022 181.52 748.064 182.032C747.106 182.544 746.027 182.786 744.942 182.732C743.857 182.678 742.807 182.33 741.904 181.726V194.732H746.346C752.12 194.732 754.785 192.511 763.669 192.511C779.214 192.511 800.979 211.61 827.629 211.61C856.499 211.61 868.492 189.846 868.492 165.417C868.492 132.992 837.844 124.553 823.187 124.553Z"
+                                    fill="black" />
+                                <path
+                                    d="M788.098 415.483V570.053H732.577L688.107 422.043C703.706 424.81 762.78 427.031 788.098 415.483Z"
+                                    fill="#74D5DE" />
+                                <circle cx="101.5" cy="188.5" r="31.5" fill="#74D5DE" />
+                                <mask id="mask0_1_171" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="70" y="157"
+                                    width="63" height="63">
+                                    <circle cx="101.5" cy="188.5" r="31.5" fill="#74D5DE" />
+                                </mask>
+                                <g mask="url(#mask0_1_171)">
+                                    <rect x="74" y="162" width="56" height="60" fill="url(#pattern0)" />
+                                </g>
+                                <rect x="257" y="115" width="289" height="12" fill="#DFE0EB" />
+                                <rect x="257" y="142" width="201" height="6" fill="#DFE0EB" />
+                                <circle cx="196" cy="130" r="24" fill="#FED892" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M538 342C542.418 342 546 345.582 546 350V399C546 403.418 542.418 407 538 407H522.676L525.5 415L507.618 407H336C331.582 407 328 403.418 328 399V350C328 345.582 331.582 342 336 342H538Z"
+                                    fill="#DFE0EB" />
+                                <rect x="360" y="364" width="155" height="6" fill="white" />
+                                <rect x="359" y="376" width="54" height="6" fill="white" />
+                                <ellipse rx="12.5" ry="12" transform="matrix(-1 0 0 1 558.5 443)" fill="#FACFCA" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M206 225C201.582 225 198 228.582 198 233V282C198 286.418 201.582 290 206 290H221.324L218.5 298L236.382 290H362C366.418 290 370 286.418 370 282V233C370 228.582 366.418 225 362 225H206Z"
+                                    fill="#DFE0EB" />
+                                <rect x="227" y="244" width="115" height="6" fill="white" />
+                                <rect x="227" y="256" width="74" height="6" fill="white" />
+                                <ellipse cx="185.5" cy="326" rx="12.5" ry="12" fill="#FACFCA" />
+                                <rect x="172" y="486" width="399" height="28" rx="8" fill="#DFE0EB" />
+                                <rect x="211" y="491" width="17" height="3" transform="rotate(90 211 491)"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M189.6 507.8C184.961 507.8 181.2 504.039 181.2 499.4C181.2 494.761 184.961 491 189.6 491C194.239 491 198 494.761 198 499.4C198 504.039 194.239 507.8 189.6 507.8ZM189.6 505.6C186.507 505.6 184.2 503.417 184.2 500.6C184.2 500.3 186.507 501.285 189.6 501.285C192.693 501.285 195 500.3 195 500.6C195 503.417 192.693 505.6 189.6 505.6ZM191.9 499.4C191.403 499.4 191 498.37 191 497.1C191 495.83 191.403 494.8 191.9 494.8C192.397 494.8 192.8 495.83 192.8 497.1C192.8 498.37 192.397 499.4 191.9 499.4ZM187.3 499.4C186.803 499.4 186.4 498.37 186.4 497.1C186.4 495.83 186.803 494.8 187.3 494.8C187.797 494.8 188.2 495.83 188.2 497.1C188.2 498.37 187.797 499.4 187.3 499.4Z"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M547 499.5H561L547 495V499.5ZM547 501H561L547 505.5V501Z" fill="white" />
+                                <defs>
+                                    <filter id="filter0_dd_1_171" x="90" y="25" width="769" height="583"
+                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                        <feOffset dy="14" />
+                                        <feGaussianBlur stdDeviation="12.5" />
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0.529412 0 0 0 0 0.572549 0 0 0 0 0.631373 0 0 0 0.06 0" />
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_1_171" />
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                        <feOffset dy="4" />
+                                        <feGaussianBlur stdDeviation="2" />
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0.529412 0 0 0 0 0.572549 0 0 0 0 0.631373 0 0 0 0.08 0" />
+                                        <feBlend mode="normal" in2="effect1_dropShadow_1_171"
+                                            result="effect2_dropShadow_1_171" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_1_171"
+                                            result="shape" />
+                                    </filter>
+                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                        <use xlink:href="#image0_1_171"
+                                            transform="translate(0 -0.00273752) scale(0.00483092 0.00450886)" />
+                                    </pattern>
+                                    <image id="image0_1_171" width="207" height="223"
+                                        xlink:href="data:image/png;base64,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" />
+                                </defs>
                             </svg>
                         </div>
                     </div>
-                    <div class="main__box">
-                        <a class="main__link" href="#">Learn more</a>
-                        <p class="main__description">
-                            This is multipurpose grid, it fits for portfolio, services or agency web site
-                        </p>
+                </div>
+            </div>
+        </section>
+        <section class="brands wrapper">
+            <h2 class="visually-hidden">Brands</h2>
+            <p class="brands__text">Trusted by forward-thinking software teams around the world</p>
+            <ul class="brands__list">
+                <li class="brands__item">
+                    <a class="brands__link" href="#">
+                        <img class="brands__img" src="./img/brands/netflix.jpg" alt="Netflix">
+                    </a>
+                </li>
+                <li class="brands__item">
+                    <a class="brands__link" href="#">
+                        <img class="brands__img" src="./img/brands/draw-kit.jpg" alt="Draw-kit">
+                    </a>
+                </li>
+                <li class="brands__item">
+                    <a class="brands__link" href="#">
+                        <img class="brands__img" src="./img/brands/figma.jpg" alt="Figma">
+                    </a>
+                </li>
+                <li class="brands__item">
+                    <a class="brands__link" href="#">
+                        <img class="brands__img" src="./img/brands/cinemax.jpg" alt="Cinemax">
+                    </a>
+                </li>
+                <li class="brands__item">
+                    <a class="brands__link" href="#">
+                        <img class="brands__img" src="./img/brands/stripe.jpg" alt="Stripe">
+                    </a>
+                </li>
+                <li class="brands__item">
+                    <a class="brands__link" href="#">
+                        <img class="brands__img" src="./img/brands/google.jpg" alt="Google">
+                    </a>
+                </li>
+                <li class="brands__item">
+                    <a class="brands__link" href="#">
+                        <img class="brands__img" src="./img/brands/disney.jpg" alt="Disney">
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="peculiarities">
+            <div class="wrapper">
+                <div class="peculiarities__body">
+                    <h2 class="peculiarities__title subtitle">Whatever work you do, we're able to help</h2>
+                    <ul class="peculiarities__list">
+                        <li class="peculiarities__card peculiarities__card_design">
+                            <div class="peculiarities__pic peculiarities__pic_design">
+                                <img src="./img/peculiarities/img-01.png" alt="">
+                            </div>
+                            <div class="peculiarities__info">
+                                <span class="peculiarities__icon">
+                                    <svg width="57" height="58" viewBox="0 0 57 58" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.322876" width="56.3756" height="58" rx="4" fill="#B5F2E3" />
+                                        <g filter="url(#filter0_d_1_143)">
+                                            <path
+                                                d="M34.1011 23.6687C36.918 23.6687 39.2026 21.2812 39.2026 18.3375C39.2026 15.3938 36.918 13 34.1011 13H23.8922C21.0754 13 18.7908 15.3875 18.7908 18.3313C18.7908 21.275 21.0754 23.6625 23.8922 23.6625C21.0754 23.6688 18.7908 26.0562 18.7908 29C18.7908 31.9438 21.0754 34.3312 23.8922 34.3312C21.0754 34.3312 18.7908 36.7188 18.7908 39.6688C18.7908 42.6188 21.0754 45 23.8922 45C26.7091 45 28.9937 42.6125 28.9937 39.6688V23.6687H34.1011ZM34.1011 23.6687C31.2843 23.6687 28.9997 26.0562 28.9997 29C28.9997 31.9438 31.2843 34.3312 34.1011 34.3312C36.918 34.3312 39.2026 31.9438 39.2026 29C39.2026 26.0562 36.918 23.6687 34.1011 23.6687Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <filter id="filter0_d_1_143" x="16.7908" y="13" width="28.4119" height="40"
+                                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                    result="hardAlpha" />
+                                                <feOffset dx="2" dy="4" />
+                                                <feGaussianBlur stdDeviation="2" />
+                                                <feColorMatrix type="matrix"
+                                                    values="0 0 0 0 0.270588 0 0 0 0 0.345098 0 0 0 0 0.501961 0 0 0 0.2 0" />
+                                                <feBlend mode="normal" in2="BackgroundImageFix"
+                                                    result="effect1_dropShadow_1_143" />
+                                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_143"
+                                                    result="shape" />
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                </span>
+                                <div class="peculiarities__text">
+                                    <h3 class="peculiarities__subtitle">Design and Assets</h3>
+                                    <p class="peculiarities__description">
+                                        Make your brand stand out with pixel-perfect design crafted to perfection.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="peculiarities__card peculiarities__card_content">
+                            <div class="peculiarities__pic peculiarities__pic_content">
+                                <img src="./img/peculiarities/img-02.png" alt="">
+                            </div>
+                            <div class="peculiarities__info">
+                                <span class="peculiarities__icon">
+                                    <svg width="57" height="58" viewBox="0 0 57 58" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.322876" width="56.3756" height="58" rx="4" fill="#FACFCA" />
+                                        <g clip-path="url(#clip0_1_130)">
+                                            <g filter="url(#filter0_d_1_130)">
+                                                <path
+                                                    d="M38.2306 30H33.3707C32.0342 30 30.9407 31.125 30.9407 32.5V40C30.9407 41.375 32.0342 42.5 33.3707 42.5H38.2306C39.5671 42.5 40.6606 41.375 40.6606 40V32.5C40.6606 31.125 39.5671 30 38.2306 30Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M23.6507 17.5H18.7908C17.4543 17.5 16.3608 18.625 16.3608 20V27.5C16.3608 28.875 17.4543 30 18.7908 30H23.6507C24.9872 30 26.0807 28.875 26.0807 27.5V20C26.0807 18.625 24.9872 17.5 23.6507 17.5Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M38.2306 17.5H33.3707C32.0342 17.5 30.9407 18.625 30.9407 20V22.5C30.9407 23.875 32.0342 25 33.3707 25H38.2306C39.5671 25 40.6606 23.875 40.6606 22.5V20C40.6606 18.625 39.5671 17.5 38.2306 17.5Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M23.6507 35H18.7908C17.4543 35 16.3608 36.125 16.3608 37.5V40C16.3608 41.375 17.4543 42.5 18.7908 42.5H23.6507C24.9872 42.5 26.0807 41.375 26.0807 40V37.5C26.0807 36.125 24.9872 35 23.6507 35Z"
+                                                    fill="white" />
+                                            </g>
+                                        </g>
+                                        <defs>
+                                            <filter id="filter0_d_1_130" x="14.3608" y="17.5" width="32.2998"
+                                                height="33" filterUnits="userSpaceOnUse"
+                                                color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                    result="hardAlpha" />
+                                                <feOffset dx="2" dy="4" />
+                                                <feGaussianBlur stdDeviation="2" />
+                                                <feColorMatrix type="matrix"
+                                                    values="0 0 0 0 0.270588 0 0 0 0 0.345098 0 0 0 0 0.501961 0 0 0 0.2 0" />
+                                                <feBlend mode="normal" in2="BackgroundImageFix"
+                                                    result="effect1_dropShadow_1_130" />
+                                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_130"
+                                                    result="shape" />
+                                            </filter>
+                                            <clipPath id="clip0_1_130">
+                                                <rect width="29.1598" height="30" fill="white"
+                                                    transform="translate(13.9308 15)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
+                                <div class="peculiarities__text">
+                                    <h3 class="peculiarities__subtitle">Easy Content</h3>
+                                    <p class="peculiarities__description">
+                                        Import your demos or build pages visually. Bonus: All images and illustrations
+                                        included!
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="peculiarities__card peculiarities__card_reliable">
+                            <div class="peculiarities__pic peculiarities__pic_reliable">
+                                <img src="./img/peculiarities/img-03.png" alt="">
+                            </div>
+                            <div class="peculiarities__info">
+                                <span class="peculiarities__icon">
+                                    <svg width="57" height="58" viewBox="0 0 57 58" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.322876" width="56.3756" height="58" rx="4" fill="#F8AEC3" />
+                                        <g clip-path="url(#clip0_1_121)">
+                                            <g filter="url(#filter0_d_1_121)">
+                                                <path
+                                                    d="M41.9113 25.6667H34.4982L39.6821 17.6667H23.4175L17.1967 33.6667H25.0893L21.4994 44.7467L41.9113 25.6667Z"
+                                                    fill="white" />
+                                            </g>
+                                        </g>
+                                        <defs>
+                                            <filter id="filter0_d_1_121" x="15.1967" y="17.6667" width="32.7146"
+                                                height="35.08" filterUnits="userSpaceOnUse"
+                                                color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                    result="hardAlpha" />
+                                                <feOffset dx="2" dy="4" />
+                                                <feGaussianBlur stdDeviation="2" />
+                                                <feColorMatrix type="matrix"
+                                                    values="0 0 0 0 0.270588 0 0 0 0 0.345098 0 0 0 0 0.501961 0 0 0 0.2 0" />
+                                                <feBlend mode="normal" in2="BackgroundImageFix"
+                                                    result="effect1_dropShadow_1_121" />
+                                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_121"
+                                                    result="shape" />
+                                            </filter>
+                                            <clipPath id="clip0_1_121">
+                                                <rect width="31.1038" height="32" fill="white"
+                                                    transform="translate(13.9308 15)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
+                                <div class="peculiarities__text">
+                                    <h3 class="peculiarities__subtitle">Fast and Reliable</h3>
+                                    <p class="peculiarities__description">
+                                        No heavy-weight plugins. No builders. No unneccesary file loading. Pure
+                                        WordPress.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="innovate-design">
+            <div class="wrapper">
+                <h2 class="innovate-design__title subtitle">
+                    Simplicity meets innovative design
+                </h2>
+                <p class="innovate-design__text">
+                    It's really easy to start using Digits. Install the theme, choose a demo and start designing the
+                    future of your business!
+                </p>
+                <a class="btn btn_big btn_blue" href="#">Buy Digits</a>
+            </div>
+        </section>
+        <section class="review">
+            <div class="wrapper">
+                <div class="review__body">
+                    <h2 class="review__title subtitle">What others are saying</h2>
+                    <div class="review__container">
+                        <ul class="review__list">
+                            <li class="review__box">
+                                <article class="review__card">
+                                    <p class="review__text">
+                                        Completely beautiful website and amazing support! This is my second website from
+                                        this author and I love both of the sites so much and she has helped me so well
+                                        when
+                                        I needed it!
+                                    </p>
+                                    <div class="review__pic">
+                                        <img src="./img/review-block/review-01.jpg" alt="">
+                                    </div>
+                                    <h3 class="review__user-name">Happy User</h3>
+                                    <p class="review__club">tempy.club</p>
+                                </article>
+                            </li>
+                            <li class="review__box">
+                                <article class="review__card">
+                                    <p class="review__text">
+                                        Really easy to use and customize. easy to understand. Darinka helped me with my
+                                        site! She answers very quickly, a good service! Thank you very much!
+                                    </p>
+                                    <div class="review__pic">
+                                        <img src="./img/review-block/review-02.jpg" alt="">
+                                    </div>
+                                    <h3 class="review__user-name">Happy User</h3>
+                                    <p class="review__club">tempy.club</p>
+                                </article>
+                            </li>
+                            <li class="review__box">
+                                <article class="review__card">
+                                    <p class="review__text">
+                                        Really pleasing to look at! Documentation (including installation instructions)
+                                        are
+                                        clear and that is coming from a relatively new WordPress user.
+                                    </p>
+                                    <div class="review__pic">
+                                        <img src="./img/review-block/review-03.jpg" alt="">
+                                    </div>
+                                    <h3 class="review__user-name">Happy User</h3>
+                                    <p class="review__club">tempy.club</p>
+                                </article>
+                            </li>
+                        </ul>
+                        <div class="review__buttons">
+                            <button class="review__button review__button_left" type="button"></button>
+                            <button class="review__button review__button_right" type="button"></button>
+                        </div>
                     </div>
-                    <p class="main__text">
-                        Use mixed grid with imagery, replace with your own photos and descriptions
-                    </p>
-                    <div class="main__bg bg">
-                        <div class="bg__rectangle"></div>
-                        <svg width="127" height="195" viewBox="0 0 127 195" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_1_12528)">
-                                <path
-                                    d="M111.324 24.3998C113.851 24.3998 115.899 22.3515 115.899 19.8248C115.899 17.2982 113.851 15.2499 111.324 15.2499C108.797 15.2499 106.749 17.2982 106.749 19.8248C106.749 22.3515 108.797 24.3998 111.324 24.3998Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M126.574 9.14991C129.1 9.14991 131.149 7.10163 131.149 4.57495C131.149 2.04828 129.1 0 126.574 0C124.047 0 121.999 2.04828 121.999 4.57495C121.999 7.10163 124.047 9.14991 126.574 9.14991Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M80.8242 54.8994C83.3509 54.8994 85.3991 52.8511 85.3991 50.3245C85.3991 47.7978 83.3509 45.7495 80.8242 45.7495C78.2975 45.7495 76.2492 47.7978 76.2492 50.3245C76.2492 52.8511 78.2975 54.8994 80.8242 54.8994Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M96.074 39.6495C98.6007 39.6495 100.649 37.6013 100.649 35.0746C100.649 32.5479 98.6007 30.4996 96.074 30.4996C93.5473 30.4996 91.4991 32.5479 91.4991 35.0746C91.4991 37.6013 93.5473 39.6495 96.074 39.6495Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M111.324 54.8994C113.851 54.8994 115.899 52.8511 115.899 50.3245C115.899 47.7978 113.851 45.7495 111.324 45.7495C108.797 45.7495 106.749 47.7978 106.749 50.3245C106.749 52.8511 108.797 54.8994 111.324 54.8994Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M126.574 39.6495C129.1 39.6495 131.149 37.6013 131.149 35.0746C131.149 32.5479 129.1 30.4996 126.574 30.4996C124.047 30.4996 121.999 32.5479 121.999 35.0746C121.999 37.6013 124.047 39.6495 126.574 39.6495Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M50.3245 85.3992C52.8512 85.3992 54.8994 83.3509 54.8994 80.8242C54.8994 78.2975 52.8512 76.2493 50.3245 76.2493C47.7978 76.2493 45.7495 78.2975 45.7495 80.8242C45.7495 83.3509 47.7978 85.3992 50.3245 85.3992Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M65.5743 70.1493C68.101 70.1493 70.1493 68.101 70.1493 65.5743C70.1493 63.0477 68.101 60.9994 65.5743 60.9994C63.0477 60.9994 60.9994 63.0477 60.9994 65.5743C60.9994 68.101 63.0477 70.1493 65.5743 70.1493Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M80.8242 85.3992C83.3509 85.3992 85.3991 83.3509 85.3991 80.8242C85.3991 78.2975 83.3509 76.2493 80.8242 76.2493C78.2975 76.2493 76.2492 78.2975 76.2492 80.8242C76.2492 83.3509 78.2975 85.3992 80.8242 85.3992Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M96.074 70.1493C98.6007 70.1493 100.649 68.101 100.649 65.5743C100.649 63.0477 98.6007 60.9994 96.074 60.9994C93.5473 60.9994 91.4991 63.0477 91.4991 65.5743C91.4991 68.101 93.5473 70.1493 96.074 70.1493Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M111.324 85.3992C113.851 85.3992 115.899 83.3509 115.899 80.8242C115.899 78.2975 113.851 76.2493 111.324 76.2493C108.797 76.2493 106.749 78.2975 106.749 80.8242C106.749 83.3509 108.797 85.3992 111.324 85.3992Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M126.574 70.1493C129.1 70.1493 131.149 68.101 131.149 65.5743C131.149 63.0477 129.1 60.9994 126.574 60.9994C124.047 60.9994 121.999 63.0477 121.999 65.5743C121.999 68.101 124.047 70.1493 126.574 70.1493Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M65.5743 100.649C68.101 100.649 70.1493 98.6007 70.1493 96.074C70.1493 93.5473 68.101 91.499 65.5743 91.499C63.0477 91.499 60.9994 93.5473 60.9994 96.074C60.9994 98.6007 63.0477 100.649 65.5743 100.649Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M80.8242 115.899C83.3509 115.899 85.3991 113.851 85.3991 111.324C85.3991 108.797 83.3509 106.749 80.8242 106.749C78.2975 106.749 76.2492 108.797 76.2492 111.324C76.2492 113.851 78.2975 115.899 80.8242 115.899Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M96.074 100.649C98.6007 100.649 100.649 98.6007 100.649 96.074C100.649 93.5473 98.6007 91.499 96.074 91.499C93.5473 91.499 91.4991 93.5473 91.4991 96.074C91.4991 98.6007 93.5473 100.649 96.074 100.649Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M111.324 115.899C113.851 115.899 115.899 113.851 115.899 111.324C115.899 108.797 113.851 106.749 111.324 106.749C108.797 106.749 106.749 108.797 106.749 111.324C106.749 113.851 108.797 115.899 111.324 115.899Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M126.574 100.649C129.1 100.649 131.149 98.6007 131.149 96.074C131.149 93.5473 129.1 91.499 126.574 91.499C124.047 91.499 121.999 93.5473 121.999 96.074C121.999 98.6007 124.047 100.649 126.574 100.649Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M96.074 131.149C98.6007 131.149 100.649 129.1 100.649 126.574C100.649 124.047 98.6007 121.999 96.074 121.999C93.5473 121.999 91.4991 124.047 91.4991 126.574C91.4991 129.1 93.5473 131.149 96.074 131.149Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M111.324 146.398C113.851 146.398 115.899 144.35 115.899 141.823C115.899 139.297 113.851 137.249 111.324 137.249C108.797 137.249 106.749 139.297 106.749 141.823C106.749 144.35 108.797 146.398 111.324 146.398Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M126.574 131.149C129.1 131.149 131.149 129.1 131.149 126.574C131.149 124.047 129.1 121.999 126.574 121.999C124.047 121.999 121.999 124.047 121.999 126.574C121.999 129.1 124.047 131.149 126.574 131.149Z"
-                                    fill="#FDCB6E" />
-                                <path
-                                    d="M126.574 161.648C129.1 161.648 131.149 159.6 131.149 157.073C131.149 154.547 129.1 152.498 126.574 152.498C124.047 152.498 121.999 154.547 121.999 157.073C121.999 159.6 124.047 161.648 126.574 161.648Z"
-                                    fill="#FDCB6E" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_1_1252">
-                                    <rect width="143" height="195" fill="white" />
-                                </clipPath>
-                            </defs>
+                </div>
+            </div>
+        </section>
+        <section class="get-in-touch">
+            <div class="wrapper">
+                <div class="get-in-touch__body">
+                    <h2 class="get-in-touch__title subtitle">Ready to launch your next website?</h2>
+                    <div class="get-in-touch__box">
+                        <a class="get-in-touch__link" href="#">Get in touch now</a>
+                        <p class="get-in-touch__text">Or, take a peek inside our design studio</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__body">
+                <div class="footer__digits">
+                    <a href="#" class="footer__logo">
+                        <svg width="81" height="28" viewBox="0 0 81 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M18.1621 0.247648H18.0313V4.27196H22.8604V4.07759H18.1621V0.247648ZM42.0344 4.07759V4.27196H46.8636V4.07759H42.0344ZM10.8656 18.9762C9.84408 20.3073 8.29627 21.1431 6.46985 21.1431C2.72415 21.1431 0 18.2332 0 13.4969C0 8.91539 2.72415 5.78881 6.46985 5.78881C8.32722 5.78881 9.81312 6.59367 10.8037 7.92479V0H15.4781V20.7716H10.8656V18.9762ZM4.92204 13.6826C4.92204 16.4068 6.09837 17.6141 7.95575 17.6141C9.93694 17.6141 10.9895 16.1282 10.9895 13.5898V13.2493C10.9895 10.7108 9.9679 9.31782 7.95575 9.31782C6.12933 9.31782 4.92204 10.6489 4.92204 13.3731V13.6826ZM18.0932 6.16029H22.7985V20.7716H18.0932V6.16029ZM38.4711 11.299C38.4711 14.6732 35.8398 16.8092 31.7226 16.8092C30.8558 16.8092 30.051 16.7164 29.308 16.4997C28.658 16.5616 28.2246 16.8711 28.2246 17.2736C28.2246 17.7689 28.8746 18.1094 29.9272 18.1094H33.7348C38.2234 18.1094 40.638 19.7501 40.638 22.7528C40.638 26.0961 37.6662 27.9535 32.2489 27.9535C26.9863 27.9535 24.3241 26.5604 24.3241 23.9292C24.3241 22.5052 25.2528 21.4527 26.9554 20.8335C25.5314 20.4621 24.6956 19.5334 24.6956 18.2951C24.6956 17.0569 25.6242 16.0663 27.2649 15.54C25.8719 14.5804 25.067 13.0945 25.067 11.3609C25.067 8.17244 27.946 5.81977 31.9084 5.81977C34.3849 5.81977 36.397 6.77941 37.5114 8.32722C38.0377 6.96515 39.0283 6.16029 40.5142 6.16029V10.2465C39.8641 9.9679 39.0283 9.93694 38.3782 10.4322C38.4401 10.7108 38.4711 10.9895 38.4711 11.299ZM36.7994 23.4648C36.7994 22.3813 35.7779 21.917 33.2395 21.917H30.3915C28.9675 22.0408 28.0079 22.598 28.0079 23.5577C28.0079 24.5792 29.4319 25.1674 32.3417 25.1674C35.2207 25.1674 36.7994 24.5483 36.7994 23.4648ZM29.339 11.4228C29.339 12.8778 30.2986 13.8065 31.8155 13.8065C33.3633 13.8065 34.3229 12.9087 34.3229 11.3919V11.2371C34.3229 9.78216 33.3014 8.79156 31.8155 8.79156C30.3605 8.79156 29.339 9.81312 29.339 11.2371V11.4228ZM42.0963 6.16029H46.8017V20.7716H42.0963V6.16029ZM57.5522 17.3355V20.7716H54.0851C51.0514 20.5549 50.4632 19.1619 50.4013 16.5616V9.4726H48.4511V6.16029H50.4013V3.31231L55.0138 1.05251V6.16029H57.6451V9.4726H54.9828V16.3758C54.9828 17.0259 55.2924 17.3045 55.9425 17.3355H57.5522ZM71.86 16.283C71.86 19.1619 69.2287 21.236 65.6688 21.236C62.4803 21.236 60.1895 20.0596 58.6417 18.388L61.5206 16.1591C62.4803 17.2736 63.9043 18.0165 65.4521 18.0165C66.6594 18.0165 67.4023 17.5522 67.4023 16.7164C67.4023 15.9074 66.221 15.6515 64.5604 15.2917C64.3781 15.2522 64.1901 15.2114 63.9971 15.1685C61.5516 14.6423 58.8584 13.6207 58.8584 10.618C58.8584 7.83192 61.4587 5.78881 64.9258 5.78881C68.0214 5.78881 70.2503 6.93419 71.7362 8.66774C71.7362 8.72965 68.9501 10.7728 68.9501 10.7728C67.9595 9.65834 66.6284 8.9773 65.1735 8.9773C63.9971 8.9773 63.2851 9.44164 63.2851 10.2155C63.2851 11.0945 64.0863 11.2613 66.2116 11.7036L66.3498 11.7324C68.8573 12.2277 71.86 13.1873 71.86 16.283Z"
+                                fill="#1E266D" />
+                            <path
+                                d="M78.4605 20.4084C79.8481 20.4084 80.9729 19.2836 80.9729 17.896C80.9729 16.5084 79.8481 15.3835 78.4605 15.3835C77.0729 15.3835 75.9481 16.5084 75.9481 17.896C75.9481 19.2836 77.0729 20.4084 78.4605 20.4084Z"
+                                fill="#FF2E6A" />
+                            <path
+                                d="M78.4605 10.3586C79.8481 10.3586 80.9729 9.23375 80.9729 7.84617C80.9729 6.45859 79.8481 5.33374 78.4605 5.33374C77.0729 5.33374 75.9481 6.45859 75.9481 7.84617C75.9481 9.23375 77.0729 10.3586 78.4605 10.3586Z"
+                                fill="#FF2E6A" />
                         </svg>
-                    </div>
-                </div>
-                <div class="main__bg_svg">
-                    <svg width="127" height="195" viewBox="0 0 127 195" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1_12528)">
-                            <path
-                                d="M111.324 24.3998C113.851 24.3998 115.899 22.3515 115.899 19.8248C115.899 17.2982 113.851 15.2499 111.324 15.2499C108.797 15.2499 106.749 17.2982 106.749 19.8248C106.749 22.3515 108.797 24.3998 111.324 24.3998Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M126.574 9.14991C129.1 9.14991 131.149 7.10163 131.149 4.57495C131.149 2.04828 129.1 0 126.574 0C124.047 0 121.999 2.04828 121.999 4.57495C121.999 7.10163 124.047 9.14991 126.574 9.14991Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M80.8242 54.8994C83.3509 54.8994 85.3991 52.8511 85.3991 50.3245C85.3991 47.7978 83.3509 45.7495 80.8242 45.7495C78.2975 45.7495 76.2492 47.7978 76.2492 50.3245C76.2492 52.8511 78.2975 54.8994 80.8242 54.8994Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M96.074 39.6495C98.6007 39.6495 100.649 37.6013 100.649 35.0746C100.649 32.5479 98.6007 30.4996 96.074 30.4996C93.5473 30.4996 91.4991 32.5479 91.4991 35.0746C91.4991 37.6013 93.5473 39.6495 96.074 39.6495Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M111.324 54.8994C113.851 54.8994 115.899 52.8511 115.899 50.3245C115.899 47.7978 113.851 45.7495 111.324 45.7495C108.797 45.7495 106.749 47.7978 106.749 50.3245C106.749 52.8511 108.797 54.8994 111.324 54.8994Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M126.574 39.6495C129.1 39.6495 131.149 37.6013 131.149 35.0746C131.149 32.5479 129.1 30.4996 126.574 30.4996C124.047 30.4996 121.999 32.5479 121.999 35.0746C121.999 37.6013 124.047 39.6495 126.574 39.6495Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M50.3245 85.3992C52.8512 85.3992 54.8994 83.3509 54.8994 80.8242C54.8994 78.2975 52.8512 76.2493 50.3245 76.2493C47.7978 76.2493 45.7495 78.2975 45.7495 80.8242C45.7495 83.3509 47.7978 85.3992 50.3245 85.3992Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M65.5743 70.1493C68.101 70.1493 70.1493 68.101 70.1493 65.5743C70.1493 63.0477 68.101 60.9994 65.5743 60.9994C63.0477 60.9994 60.9994 63.0477 60.9994 65.5743C60.9994 68.101 63.0477 70.1493 65.5743 70.1493Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M80.8242 85.3992C83.3509 85.3992 85.3991 83.3509 85.3991 80.8242C85.3991 78.2975 83.3509 76.2493 80.8242 76.2493C78.2975 76.2493 76.2492 78.2975 76.2492 80.8242C76.2492 83.3509 78.2975 85.3992 80.8242 85.3992Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M96.074 70.1493C98.6007 70.1493 100.649 68.101 100.649 65.5743C100.649 63.0477 98.6007 60.9994 96.074 60.9994C93.5473 60.9994 91.4991 63.0477 91.4991 65.5743C91.4991 68.101 93.5473 70.1493 96.074 70.1493Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M111.324 85.3992C113.851 85.3992 115.899 83.3509 115.899 80.8242C115.899 78.2975 113.851 76.2493 111.324 76.2493C108.797 76.2493 106.749 78.2975 106.749 80.8242C106.749 83.3509 108.797 85.3992 111.324 85.3992Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M126.574 70.1493C129.1 70.1493 131.149 68.101 131.149 65.5743C131.149 63.0477 129.1 60.9994 126.574 60.9994C124.047 60.9994 121.999 63.0477 121.999 65.5743C121.999 68.101 124.047 70.1493 126.574 70.1493Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M65.5743 100.649C68.101 100.649 70.1493 98.6007 70.1493 96.074C70.1493 93.5473 68.101 91.499 65.5743 91.499C63.0477 91.499 60.9994 93.5473 60.9994 96.074C60.9994 98.6007 63.0477 100.649 65.5743 100.649Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M80.8242 115.899C83.3509 115.899 85.3991 113.851 85.3991 111.324C85.3991 108.797 83.3509 106.749 80.8242 106.749C78.2975 106.749 76.2492 108.797 76.2492 111.324C76.2492 113.851 78.2975 115.899 80.8242 115.899Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M96.074 100.649C98.6007 100.649 100.649 98.6007 100.649 96.074C100.649 93.5473 98.6007 91.499 96.074 91.499C93.5473 91.499 91.4991 93.5473 91.4991 96.074C91.4991 98.6007 93.5473 100.649 96.074 100.649Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M111.324 115.899C113.851 115.899 115.899 113.851 115.899 111.324C115.899 108.797 113.851 106.749 111.324 106.749C108.797 106.749 106.749 108.797 106.749 111.324C106.749 113.851 108.797 115.899 111.324 115.899Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M126.574 100.649C129.1 100.649 131.149 98.6007 131.149 96.074C131.149 93.5473 129.1 91.499 126.574 91.499C124.047 91.499 121.999 93.5473 121.999 96.074C121.999 98.6007 124.047 100.649 126.574 100.649Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M96.074 131.149C98.6007 131.149 100.649 129.1 100.649 126.574C100.649 124.047 98.6007 121.999 96.074 121.999C93.5473 121.999 91.4991 124.047 91.4991 126.574C91.4991 129.1 93.5473 131.149 96.074 131.149Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M111.324 146.398C113.851 146.398 115.899 144.35 115.899 141.823C115.899 139.297 113.851 137.249 111.324 137.249C108.797 137.249 106.749 139.297 106.749 141.823C106.749 144.35 108.797 146.398 111.324 146.398Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M126.574 131.149C129.1 131.149 131.149 129.1 131.149 126.574C131.149 124.047 129.1 121.999 126.574 121.999C124.047 121.999 121.999 124.047 121.999 126.574C121.999 129.1 124.047 131.149 126.574 131.149Z"
-                                fill="#FDCB6E" />
-                            <path
-                                d="M126.574 161.648C129.1 161.648 131.149 159.6 131.149 157.073C131.149 154.547 129.1 152.498 126.574 152.498C124.047 152.498 121.999 154.547 121.999 157.073C121.999 159.6 124.047 161.648 126.574 161.648Z"
-                                fill="#FDCB6E" />
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_1_12528">
-                                <rect width="143" height="195" fill="white" />
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </div>
-            </section>
-            <div class="container">
-                <section class="delivering">
-                    <h2 class="delivering__title">Delivering good designs <span>since 1954 🚚💨</span></h2>
-                    <p class="delivering__text">
-                        We’re the first multi-purpose design kit solutions for businesses. We help you bridge
-                        gaps between your
-                        <span>
-                            layouts, templates and developers to empower all involved.
-                        </span>
+                    </a>
+                    <p class="footer__description">
+                        Digits is a website template built to work seamlesly with the WordPress block editor to
+                        create beautifully designed pages in minutes.
                     </p>
-                    <ul class="delivering__benefits benefits">
-                        <li class="benefits__desktop">
-                            <span class="benefits__icon benefits__icon_violet">
-                                <svg width="33" height="33" viewBox="0 0 33 33" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M20.1134 7.6C21.4808 7.86679 22.7375 8.53556 23.7227 9.52071C24.7078 10.5059 25.3766 11.7626 25.6434 13.13M20.1134 2C22.9543 2.31561 25.6036 3.58784 27.6261 5.60781C29.6486 7.62778 30.9242 10.2754 31.2434 13.116M29.8434 24.288V28.488C29.8449 28.8779 29.7651 29.2638 29.6089 29.6211C29.4527 29.9783 29.2236 30.299 28.9363 30.5626C28.649 30.8262 28.3098 31.0269 27.9404 31.1518C27.5711 31.2767 27.1797 31.3231 26.7914 31.288C22.4833 30.8199 18.3452 29.3478 14.7094 26.99C11.3267 24.8405 8.45883 21.9726 6.30936 18.59C3.94333 14.9377 2.4709 10.7794 2.01136 6.452C1.97638 6.06485 2.02239 5.67466 2.14646 5.30627C2.27054 4.93788 2.46996 4.59937 2.73204 4.31227C2.99411 4.02517 3.31309 3.79579 3.66867 3.63873C4.02425 3.48167 4.40864 3.40037 4.79736 3.4H8.99736C9.67679 3.39331 10.3355 3.63391 10.8506 4.07695C11.3658 4.51998 11.7023 5.13523 11.7974 5.808C11.9746 7.15209 12.3034 8.47182 12.7774 9.742C12.9657 10.2431 13.0065 10.7877 12.8948 11.3112C12.7832 11.8348 12.5238 12.3154 12.1474 12.696L10.3694 14.474C12.3623 17.979 15.2644 20.881 18.7694 22.874L20.5474 21.096C20.928 20.7196 21.4086 20.4602 21.9321 20.3485C22.4557 20.2369 23.0003 20.2776 23.5014 20.466C24.7715 20.94 26.0913 21.2687 27.4354 21.446C28.1154 21.5419 28.7365 21.8845 29.1805 22.4085C29.6245 22.9325 29.8604 23.6014 29.8434 24.288Z"
-                                        stroke="#FFEAA7" stroke-width="3" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                            <h3 class="benefits__title">Support</h3>
-                            <p class="benefits__description">
-                                Delivering faster and more personalized support with shared screens and cool design
-                                systems for Figma
-                            </p>
-                            <a class="benefits__link" href="#">Learn more</a>
-                        </li>
-                        <li class="benefits__desktop">
-                            <span class="benefits__icon benefits__icon_blue">
-                                <svg class="benefits__icon_positionary" width="64" height="64" viewBox="0 0 64 64"
-                                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g filter="url(#filter0_dd_1_4684)">
-                                        <path
-                                            d="M44.8946 33.446C44.0039 35.5523 42.6109 37.4083 40.8372 38.8518C39.0635 40.2953 36.9632 41.2824 34.72 41.7267C32.4767 42.171 30.1588 42.059 27.9688 41.4005C25.7788 40.742 23.7834 39.5571 22.1572 37.9493C20.5309 36.3415 19.3233 34.3598 18.6399 32.1775C17.9564 29.9952 17.818 27.6787 18.2366 25.4305C18.6553 23.1823 19.6183 21.0709 21.0414 19.2808C22.4646 17.4908 24.3046 16.0766 26.4006 15.162"
-                                            stroke="#FFEAA7" stroke-width="3" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                        <path
-                                            d="M46.0006 28C46.0006 26.1615 45.6385 24.341 44.9349 22.6424C44.2314 20.9439 43.2001 19.4005 41.9001 18.1005C40.6001 16.8005 39.0567 15.7693 37.3582 15.0657C35.6596 14.3621 33.8391 14 32.0006 14V28H46.0006Z"
-                                            stroke="#FFEAA7" stroke-width="3" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                    </g>
-                                    <defs>
-                                        <filter id="filter0_dd_1_4684" x="-12" y="-12" width="88" height="88"
-                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                            <feColorMatrix in="SourceAlpha" type="matrix"
-                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                            <feOffset dy="4" />
-                                            <feGaussianBlur stdDeviation="8" />
-                                            <feColorMatrix type="matrix"
-                                                values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.08 0" />
-                                            <feBlend mode="multiply" in2="BackgroundImageFix"
-                                                result="effect1_dropShadow_1_4684" />
-                                            <feColorMatrix in="SourceAlpha" type="matrix"
-                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                            <feOffset dy="4" />
-                                            <feGaussianBlur stdDeviation="3" />
-                                            <feColorMatrix type="matrix"
-                                                values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.16 0" />
-                                            <feBlend mode="multiply" in2="effect1_dropShadow_1_4684"
-                                                result="effect2_dropShadow_1_4684" />
-                                            <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_1_4684"
-                                                result="shape" />
-                                        </filter>
-                                    </defs>
-                                </svg>
-                            </span>
-                            <h3 class="benefits__title">Sales growth</h3>
-                            <p class="benefits__description">
-                                Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot
-                            </p>
-                            <a class="benefits__link" href="#">Learn more</a>
-                        </li>
-                        <li class="benefits__desktop">
-                            <span class="benefits__icon benefits__icon_marine">
-                                <svg width="30" height="32" viewBox="0 0 30 32" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16.4 2L2.40002 18.8H15L13.6 30L27.6 13.2H15L16.4 2Z" stroke="#FFEAA7"
-                                        stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                            <h3 class="benefits__title">Coponents-driven</h3>
-                            <p class="benefits__description">
-                                Delivering faster and more personalized support with shared screens and cool design
-                                systems for Figma
-                            </p>
-                            <a class="benefits__link" href="#">Learn more</a>
-                        </li>
-                        <li>
-                            <span class="benefits__icon benefits__icon_changeable">
-                                <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g filter="url(#filter0_dd_1_4605)">
-                                        <path
-                                            d="M25 42H20.8C20.0574 42 19.3452 41.705 18.8201 41.1799C18.295 40.6548 18 39.9426 18 39.2V29.4C18 28.6574 18.295 27.9452 18.8201 27.4201C19.3452 26.895 20.0574 26.6 20.8 26.6H25M34.8 23.8V18.2C34.8 17.0861 34.3575 16.0178 33.5698 15.2302C32.7822 14.4425 31.7139 14 30.6 14L25 26.6V42H40.792C41.4673 42.0076 42.1225 41.771 42.6371 41.3336C43.1516 40.8962 43.4907 40.2877 43.592 39.62L45.524 27.02C45.5849 26.6187 45.5578 26.209 45.4447 25.8192C45.3315 25.4293 45.1349 25.0688 44.8686 24.7625C44.6023 24.4562 44.2725 24.2115 43.9022 24.0453C43.5319 23.8791 43.1299 23.7954 42.724 23.8H34.8Z"
-                                            stroke="#FFEAA7" stroke-width="3" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                    </g>
-                                    <defs>
-                                        <filter id="filter0_dd_1_4605" x="-12" y="-12" width="88" height="88"
-                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                            <feColorMatrix in="SourceAlpha" type="matrix"
-                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                            <feOffset dy="4" />
-                                            <feGaussianBlur stdDeviation="8" />
-                                            <feColorMatrix type="matrix"
-                                                values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.08 0" />
-                                            <feBlend mode="multiply" in2="BackgroundImageFix"
-                                                result="effect1_dropShadow_1_4605" />
-                                            <feColorMatrix in="SourceAlpha" type="matrix"
-                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                            <feOffset dy="4" />
-                                            <feGaussianBlur stdDeviation="3" />
-                                            <feColorMatrix type="matrix"
-                                                values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.16 0" />
-                                            <feBlend mode="multiply" in2="effect1_dropShadow_1_4605"
-                                                result="effect2_dropShadow_1_4605" />
-                                            <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_1_4605"
-                                                result="shape" />
-                                        </filter>
-                                    </defs>
-                                </svg>
-                            </span>
-                            <h3 class="benefits__title">Swap the icon</h3>
-                            <p class="benefits__description">
-                                You can toggle to any icon within Instances and customize outlined stroke to more bolder
-                                or lighter
-                            </p>
-                            <a class="benefits__link" href="#">Learn more</a>
-                        </li>
-                        <li class="benefits__mob">
-                            <span class="benefits__icon benefits__icon_green">
-                                <svg width="43" height="43" viewBox="0 0 43 43" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M21.6805 15.7375L22.3 10.75L19.7485 13.816" stroke="white" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M28.1485 22.2055L30.7 19.15H25.093" stroke="white" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M17.05 17.05L11.8 23.35H21.25L20.2 31.75L25.45 25.45" stroke="white"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M9.7 9.69995L32.8 32.8" stroke="white" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                            <h3 class="benefits__title">Detach if need</h3>
-                            <p class="benefits__description">
-                                Detaching the block instance will help you to control the indents and font styles more
-                                precisely
-                            </p>
-                            <a class="benefits__link" href="#">Learn more</a>
-                        </li>
-                        <li class="benefits__mob">
-                            <span class="benefits__icon benefits__icon_violet">
-                                <svg width="43" height="43" viewBox="0 0 43 43" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M25.45 17.05C27.1209 17.05 28.7233 17.7137 29.9048 18.8952C31.0862 20.0767 31.75 21.6791 31.75 23.35V30.7H27.55V23.35C27.55 22.793 27.3287 22.2589 26.9349 21.8651C26.5411 21.4712 26.0069 21.25 25.45 21.25C24.893 21.25 24.3589 21.4712 23.9651 21.8651C23.5712 22.2589 23.35 22.793 23.35 23.35V30.7H19.15V23.35C19.15 21.6791 19.8137 20.0767 20.9952 18.8952C22.1767 17.7137 23.7791 17.05 25.45 17.05V17.05Z"
-                                        stroke="white" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M14.95 18.1H10.75V30.7H14.95V18.1Z" stroke="white" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <path
-                                        d="M12.85 14.95C14.0098 14.95 14.95 14.0098 14.95 12.85C14.95 11.6902 14.0098 10.75 12.85 10.75C11.6902 10.75 10.75 11.6902 10.75 12.85C10.75 14.0098 11.6902 14.95 12.85 14.95Z"
-                                        stroke="white" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                            <h3 class="benefits__title">Toggle icons</h3>
-                            <p class="benefits__description">
-                                You can toggle to any icon within Instances and customize outlined stroke to more bolder
-                                or lighter
-                            </p>
-                            <a class="benefits__link" href="#">Learn more</a>
-                        </li>
-                        <li class="benefits__mob">
-                            <span class="benefits__icon benefits__icon_turquoise">
-                                <svg width="43" height="43" viewBox="0 0 43 43" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M29.65 16H12.85C11.6902 16 10.75 16.9402 10.75 18.1V28.6C10.75 29.7598 11.6902 30.7 12.85 30.7H29.65C30.8098 30.7 31.75 29.7598 31.75 28.6V18.1C31.75 16.9402 30.8098 16 29.65 16Z"
-                                        stroke="white" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path
-                                        d="M25.45 30.7V13.9C25.45 13.343 25.2288 12.8089 24.8349 12.4151C24.4411 12.0212 23.907 11.8 23.35 11.8H19.15C18.593 11.8 18.0589 12.0212 17.6651 12.4151C17.2713 12.8089 17.05 13.343 17.05 13.9V30.7"
-                                        stroke="white" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                            <h3 class="benefits__title">Replace a title</h3>
-                            <p class="benefits__description">
-                                Detaching the block instance will help you to control the indents and font styles more
-                                precisely
-                            </p>
-                            <a class="benefits__link" href="#">Learn more</a>
-                        </li>
-                    </ul>
-                </section>
-                <section class="pricing">
-                    <h2 class="pricing__title"><span>Affordable</span> pricing</h2>
-                    <div class="pricing__select select">
-                        <span>Bill me </span>
-                        <button class="select__monthly active" type="button">monthly</button>
-                        <span>•</span>
-                        <button class="select__yearly" type="button">yearly</button>
-                    </div>
-                    <ul class="pricing__subscriptions subscriptions subscriptions__monthly">
-                        <li>
-                            <div class="subscriptions__container">
-                                <div class="subscriptions__body">
-                                    <div class="subscriptions__box">
-                                        <h3 class="subscriptions__title">Like a pussy</h3>
-                                    </div>
-                                    <p class="subscriptions__price">
-                                        <span class="subscriptions__price_big">Free </span>
-                                        <span class="subscriptions__price_small">/ forever</span>
-                                    </p>
-                                    <ul class="subscriptions__description description description-month__free">
-                                        <li>Components-driven system</li>
-                                        <li>Sales-boosting landing pages</li>
-                                        <li>Awesome Feather icons pack</li>
-                                    </ul>
-                                    <button class="subscriptions__btn" type="button">Try for free</button>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="subscriptions__container active">
-                                <div class="subscriptions__body">
-                                    <div class="subscriptions__box">
-                                        <h3 class="subscriptions__title">👤 Individual</h3>
-                                        <p class="subscriptions__sticker">best!</p>
-                                    </div>
-                                    <p class="subscriptions__price">
-                                        <span class="subscriptions__price_big">$24 </span>
-                                        <span class="subscriptions__price_small">/ month</span>
-                                    </p>
-                                    <ul class="subscriptions__description description description-month__individ">
-                                        <li>Components-driven system</li>
-                                        <li>Sales-boosting landing pages</li>
-                                        <li>Awesome Feather icons pack</li>
-                                        <li>Themed into 3 different styles</li>
-                                        <li>Will help to learn Figma</li>
-                                    </ul>
-                                    <button class="subscriptions__btn" type="button">Regular license</button>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="subscriptions__container">
-                                <div class="subscriptions__body">
-                                    <div class="subscriptions__box">
-                                        <h3 class="subscriptions__title">👤👤 Corporate</h3>
-                                    </div>
-                                    <p class="subscriptions__price">
-                                        <span class="subscriptions__price_big">$12 </span>
-                                        <span class="subscriptions__price_small">/ editor</span>
-                                    </p>
-                                    <ul class="subscriptions__description description description-month__corp">
-                                        <li>Components-driven system</li>
-                                        <li>Sales-boosting landing pages</li>
-                                        <li>Awesome Feather icons pack</li>
-                                        <li>Themed into 3 different styles</li>
-                                    </ul>
-                                    <button class="subscriptions__btn" type="button">Extended license</button>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="pricing__subscriptions subscriptions subscriptions__yearly">
-                        <li>
-                            <div class="subscriptions__container">
-                                <div class="subscriptions__body">
-                                    <div class="subscriptions__box">
-                                        <h3 class="subscriptions__title">Individual</h3>
-                                        <p class="subscriptions__sticker">fine!</p>
-                                    </div>
-                                    <p class="subscriptions__price">
-                                        <span class="subscriptions__price_big">$8.99 </span>
-                                        <span class="subscriptions__price_small">/ month</span>
-                                    </p>
-                                    <ul class="subscriptions__description description description-year__individ">
-                                        <li>Unlimited hosting</li>
-                                        <li>Free storage</li>
-                                        <li>Lifetime support</li>
-                                        <li>Constant updates</li>
-                                    </ul>
-                                    <button class="subscriptions__btn" type="button">Get started!</button>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="subscriptions__container">
-                                <div class="subscriptions__body">
-                                    <div class="subscriptions__box">
-                                        <h3 class="subscriptions__title">Professional</h3>
-                                        <p class="subscriptions__sticker">good!</p>
-                                    </div>
-                                    <p class="subscriptions__price">
-                                        <span class="subscriptions__price_big">$12.99 </span>
-                                        <span class="subscriptions__price_small">/ month</span>
-                                    </p>
-                                    <ul class="subscriptions__description description description-year__prof">
-                                        <li>Unlimited hosting</li>
-                                        <li>Free storage</li>
-                                        <li>Lifetime support</li>
-                                        <li>Constant updates</li>
-                                    </ul>
-                                    <button class="subscriptions__btn" type="button">Select this plan!</button>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="subscriptions__container">
-                                <div class="subscriptions__body active">
-                                    <div class="subscriptions__box">
-                                        <h3 class="subscriptions__title">Enterprise</h3>
-                                        <p class="subscriptions__sticker">wow!</p>
-                                    </div>
-                                    <p class="subscriptions__price">
-                                        <span class="subscriptions__price_big">$32.99 </span>
-                                        <span class="subscriptions__price_small">/ month</span>
-                                    </p>
-                                    <ul class="subscriptions__description description-year__enter">
-                                        <li>Unlimited hosting</li>
-                                        <li>Free storage</li>
-                                        <li>Lifetime support</li>
-                                        <li>Constant updates</li>
-                                    </ul>
-                                    <button class="subscriptions__btn" type="button">Start today!</button>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </section>
-            </div>
-        </main>
-        <footer class="footer">
-            <div class="container">
-                <div class="footer__body">
-                    <div class="footer__foot-mob foot-mob">
-                        <p class="foot-mob__copy">
-                            Copyright © 2018 • Your Company
-                            All rights reserved
-                        </p>
-                        <p class="foot-mob__made">
-                            Made in Setproduct.com One man digital agency
-                        </p>
-                        <a href="mailto:hello@setproduct.com" class="foot-mob__email">
-                            hello@setproduct.com
-                        </a>
-                    </div>
-                    <div class="footer__follow-us follow-us">
-                        <div class="follow-us__socials socials">
-                            <h2 class="footer__titles">follow us</h2>
-                            <ul class="socials__list">
-                                <li>
-                                    <a class="active" href="#" aria-label="link to our facebook">
-                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M25 10H22C20.6739 10 19.4021 10.5268 18.4645 11.4645C17.5268 12.4021 17 13.6739 17 15V18H14V22H17V30H21V22H24L25 18H21V15C21 14.7348 21.1054 14.4804 21.2929 14.2929C21.4804 14.1054 21.7348 14 22 14H25V10Z"
-                                                stroke="#6C5CE7" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" aria-label="link to our linked-in">
-                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M24 16C25.5913 16 27.1174 16.6321 28.2426 17.7574C29.3679 18.8826 30 20.4087 30 22V29H26V22C26 21.4696 25.7893 20.9609 25.4142 20.5858C25.0391 20.2107 24.5304 20 24 20C23.4696 20 22.9609 20.2107 22.5858 20.5858C22.2107 20.9609 22 21.4696 22 22V29H18V22C18 20.4087 18.6321 18.8826 19.7574 17.7574C20.8826 16.6321 22.4087 16 24 16V16Z"
-                                                stroke="#6C5CE7" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path d="M14 17H10V29H14V17Z" stroke="#6C5CE7" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                            <path
-                                                d="M12 14C13.1046 14 14 13.1046 14 12C14 10.8954 13.1046 10 12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14Z"
-                                                stroke="#6C5CE7" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" aria-label="link to our slack">
-                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M30.0744 17.0021C27.8044 9.41214 24.5344 7.65214 16.9944 9.92214C9.4544 12.1921 7.6444 15.4621 9.9144 23.0021C12.1844 30.5421 15.4544 32.3521 22.9944 30.0821C30.5344 27.8121 32.3444 24.5421 30.0744 17.0021Z"
-                                                stroke="#6C5CE7" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path d="M20.5645 13.9921L24.1445 24.3921" stroke="#6C5CE7" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M15.8444 15.6121L19.4244 26.0121" stroke="#6C5CE7" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M24.3844 15.8522L13.9844 19.4322" stroke="#6C5CE7" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M26.0044 20.5721L15.6044 24.1521" stroke="#6C5CE7" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" aria-label="link to our twitter">
-                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M31 11.0101C30.0424 11.6855 28.9821 12.2022 27.86 12.5401C27.2577 11.8476 26.4573 11.3567 25.567 11.134C24.6767 10.9112 23.7395 10.9673 22.8821 11.2945C22.0247 11.6218 21.2884 12.2045 20.773 12.9638C20.2575 13.7231 19.9877 14.6224 20 15.5401V16.5401C18.2426 16.5856 16.5013 16.1959 14.931 15.4055C13.3607 14.6151 12.0103 13.4487 11 12.0101C11 12.0101 7 21.0101 16 25.0101C13.9405 26.408 11.4872 27.109 9 27.0101C18 32.0101 29 27.0101 29 15.5101C28.9991 15.2315 28.9723 14.9537 28.92 14.6801C29.9406 13.6735 30.6608 12.4028 31 11.0101V11.0101Z"
-                                                stroke="#6C5CE7" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" aria-label="link to our youtube">
-                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M30.5406 14.42C30.4218 13.9454 30.1799 13.5106 29.8392 13.1594C29.4986 12.8082 29.0713 12.5532 28.6006 12.42C26.8806 12 20.0006 12 20.0006 12C20.0006 12 13.1206 12 11.4006 12.46C10.9298 12.5932 10.5025 12.8482 10.1619 13.1994C9.82129 13.5506 9.57936 13.9854 9.46057 14.46C9.14579 16.2056 8.99181 17.9763 9.00057 19.75C8.98935 21.537 9.14334 23.3213 9.46057 25.08C9.59153 25.5398 9.83888 25.9581 10.1787 26.2945C10.5186 26.6308 10.9394 26.8738 11.4006 27C13.1206 27.46 20.0006 27.46 20.0006 27.46C20.0006 27.46 26.8806 27.46 28.6006 27C29.0713 26.8668 29.4986 26.6118 29.8392 26.2606C30.1799 25.9094 30.4218 25.4746 30.5406 25C30.8529 23.2676 31.0069 21.5103 31.0006 19.75C31.0118 17.963 30.8578 16.1787 30.5406 14.42V14.42Z"
-                                                stroke="#2D3436" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path d="M17.7506 23.02L23.5006 19.75L17.7506 16.48V23.02Z" stroke="#2D3436"
-                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="follow-us__email">
-                            <h2 class="footer__titles">follow us</h2>
-                            <a href="mailto:hello@setproduct.com" class="follow-us__text">
-                                hello@fapsterapp.com
-                            </a>
-                        </div>
-                    </div>
-                    <div class="footer__container">
-                        <div class="footer__box">
-                            <h2 class="footer__titles">information</h2>
-                            <ul class="footer__info">
-                                <li><a href="#">About Fapster app</a></li>
-                                <li><a class="active" href="#">Onhovered / Active</a></li>
-                                <li><a href="#">We are hiring!</a></li>
-                                <li><a href="#">Get in Touch</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Resources</a></li>
-                                <li><a href="#">Things We Like</a></li>
-                                <li><a href="#">Terms of Service</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer__data">
-                            <h2 class="footer__titles">keep in touch</h2>
-                            <form class="footer__form form" action="#" method="post">
-                                <p class="form__name">
-                                    <label>
-                                        <input type="text" name="user-name" placeholder="Your name">
-                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M28 29V27C28 25.9391 27.5786 24.9217 26.8284 24.1716C26.0783 23.4214 25.0609 23 24 23H16C14.9391 23 13.9217 23.4214 13.1716 24.1716C12.4214 24.9217 12 25.9391 12 27V29"
-                                                stroke="#ADADAD" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path
-                                                d="M20 19C22.2091 19 24 17.2091 24 15C24 12.7909 22.2091 11 20 11C17.7909 11 16 12.7909 16 15C16 17.2091 17.7909 19 20 19Z"
-                                                stroke="#ADADAD" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </label>
-                                </p>
-                                <p class="form__email">
-                                    <label>
-                                        <input type="email" name="email" placeholder="E-mail">
-                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M12 12H28C29.1 12 30 12.9 30 14V26C30 27.1 29.1 28 28 28H12C10.9 28 10 27.1 10 26V14C10 12.9 10.9 12 12 12Z"
-                                                stroke="#ADADAD" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path d="M30 14L20 21L10 14" stroke="#ADADAD" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </label>
-                                </p>
-                                <p class="form__message">
-                                    <label>
-                                        <textarea name="message" cols="30" rows="10"
-                                            placeholder="Leave your message|"></textarea>
-                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M28 22.66V28C28 28.5304 27.7893 29.0391 27.4142 29.4142C27.0391 29.7893 26.5304 30 26 30H12C11.4696 30 10.9609 29.7893 10.5858 29.4142C10.2107 29.0391 10 28.5304 10 28V14C10 13.4696 10.2107 12.9609 10.5858 12.5858C10.9609 12.2107 11.4696 12 12 12H17.34"
-                                                stroke="#6C5CE7" stroke-width="3" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                            <path d="M26 10L30 14L20 24H16V20L26 10Z" stroke="#6C5CE7" stroke-width="3"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </label>
-                                </p>
-                                <p class="form__btn">
-                                    <button type="submit">send</button>
-                                </p>
-                            </form>
-                        </div>
-                    </div>
                 </div>
+                <ul class="footer__menu">
+                    <li class="footer__item">
+                        <h3 class="footer__title">Pages</h3>
+                        <ul class="footer__list">
+                            <li class="footer__text"><a class="footer__link" href="#">Home</a></li>
+                            <li class="footer__text"><a class="footer__link" href="#">About</a></li>
+                            <li class="footer__text"><a class="footer__link" href="#">News</a></li>
+                            <li class="footer__text"><a class="footer__link" href="#">Pricing</a></li>
+                            <li class="footer__text"><a class="footer__link" href="#">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer__item">
+                        <h3 class="footer__title">Demos</h3>
+                        <ul class="footer__list">
+                            <li class="footer__text"><a class="footer__link" href="#">Classic</a></li>
+                            <li class="footer__text"><a class="footer__link" href="#">Boxy</a></li>
+                            <li class="footer__text"><a class="footer__link" href="#">Gradient</a></li>
+                            <li class="footer__text"><a class="footer__link" href="#">Minimal</a></li>
+                            <li class="footer__text"><a class="footer__link" href="#">Night</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="footer__resources">
+                    <li class="footer__item">
+                        <h3 class="footer__title">Resources</h3>
+                        <ul class="footer__list">
+                            <li class="footer__text">
+                                <ul class="footer__socials socials">
+                                    <li class="socials__item">
+                                        <a class="socials__link" href="#">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M1.02237 13.8148C1.02237 14.4573 1.54282 14.9777 2.18525 14.9777H13.8147C14.4572 14.9777 14.9776 14.4573 14.9776 13.8148V2.18534C14.9776 1.54288 14.4572 1.02246 13.8147 1.02246H2.18528C1.54282 1.02246 1.0224 1.54291 1.0224 2.18534V13.8148H1.02237ZM8.29075 13.2333V8.58156H7.12781V6.83712H8.29075C8.29075 3.83965 8.41853 3.63907 12.0703 3.63907V5.38348C10.1456 5.38348 10.3259 5.49107 10.3259 6.83715H12.0703V8.5816H10.3259V13.2333H8.29075V13.2333Z"
+                                                    fill="#1E266D" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials__item">
+                                        <a class="socials__link" href="#">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.2524 1.36353H3.66887C2.17789 1.36353 0.964905 2.57623 0.964905 4.06721V6.9233V12.651C0.964905 14.142 2.17789 15.3547 3.66887 15.3547H12.2526C13.7436 15.3547 14.9563 14.142 14.9563 12.651V6.92301V4.06693C14.956 2.57595 13.7433 1.36353 12.2524 1.36353ZM13.0279 2.97586L13.3372 2.97473V3.28263V5.34624L10.9736 5.35386L10.9654 2.98263L13.0279 2.97586ZM5.96362 6.92301C6.41179 6.30297 7.13879 5.89629 7.96062 5.89629C8.78245 5.89629 9.50945 6.30297 9.95706 6.92301C10.2486 7.32772 10.4233 7.82274 10.4233 8.35896C10.4233 9.71673 9.31754 10.8213 7.96034 10.8213C6.60228 10.8213 5.49767 9.71673 5.49767 8.35896C5.49795 7.82274 5.67208 7.32772 5.96362 6.92301ZM13.5929 12.6507C13.5929 13.3904 12.9915 13.9913 12.2524 13.9913H3.66887C2.92945 13.9913 2.32804 13.3904 2.32804 12.6507V6.92301H4.41648C4.23614 7.36667 4.13482 7.85124 4.13482 8.35896C4.13482 10.468 5.85073 12.185 7.96062 12.185C10.0702 12.185 11.7861 10.468 11.7861 8.35896C11.7861 7.85124 11.6843 7.36667 11.5039 6.92301H13.5929V12.6507Z"
+                                                    fill="#1E266D" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials__item">
+                                        <a class="socials__link" href="#">
+                                            <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M15.8991 2.59814C15.315 2.86028 14.6864 3.03711 14.0268 3.11624C14.7003 2.70919 15.2166 2.06442 15.4602 1.29525C14.8302 1.67267 14.1329 1.94654 13.3901 2.09438C12.7957 1.45482 11.9484 1.05493 11.0107 1.05493C9.21064 1.05493 7.75115 2.52846 7.75115 4.34618C7.75115 4.60376 7.77986 4.85483 7.83566 5.09613C5.12633 4.95871 2.72405 3.64866 1.1162 1.65737C0.835588 2.14322 0.674964 2.70853 0.674964 3.31227C0.674964 4.45397 1.25037 5.4615 2.1251 6.05156C1.59097 6.0343 1.08814 5.88613 0.648515 5.63962C0.648193 5.6533 0.648193 5.6673 0.648193 5.68131C0.648193 7.27564 1.77192 8.60556 3.26334 8.9084C2.98983 8.9833 2.7018 9.02368 2.40442 9.02368C2.19412 9.02368 1.98996 9.00317 1.79095 8.96442C2.20606 10.2719 3.40977 11.2237 4.83604 11.2501C3.72038 12.1329 2.31508 12.6591 0.78753 12.6591C0.52466 12.6591 0.265016 12.6435 0.0098877 12.6129C1.45293 13.5472 3.16626 14.0916 5.00699 14.0916C11.0033 14.0916 14.2819 9.07676 14.2819 4.72751C14.2819 4.58487 14.279 4.44257 14.2729 4.30124C14.9096 3.83818 15.4624 3.25822 15.8991 2.59814Z"
+                                                    fill="#1E266D" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials__item">
+                                        <a class="socials__link" href="#">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_1_18)">
+                                                    <path
+                                                        d="M8.06506 8.19522C8.12971 8.17378 8.19501 8.15461 8.26064 8.13545C8.13621 7.85378 8.00041 7.57147 7.85844 7.29272C5.30527 8.05748 2.8554 8.00225 2.76768 7.999C2.76606 8.05228 2.76346 8.10361 2.76346 8.15689C2.76346 9.43104 3.24395 10.5921 4.03404 11.4703C4.03339 11.469 4.03209 11.4677 4.03209 11.4677C4.03209 11.4677 5.38941 9.06068 8.06506 8.19522Z"
+                                                        fill="#1E266D" />
+                                                    <path
+                                                        d="M7.44715 6.52962C6.58916 5.00467 5.67237 3.7604 5.60642 3.67236C4.22344 4.32536 3.19131 5.59951 2.86969 7.13519C3.00029 7.13648 5.06648 7.16247 7.44715 6.52962Z"
+                                                        fill="#1E266D" />
+                                                    <path
+                                                        d="M10.9967 4.43577C10.1234 3.66614 8.97695 3.19897 7.72196 3.19897C7.31912 3.19897 6.9283 3.24771 6.55307 3.33802C6.62779 3.43776 7.55953 4.67357 8.40712 6.23102C10.2784 5.52896 10.9847 4.45396 10.9967 4.43577Z"
+                                                        fill="#1E266D" />
+                                                    <path
+                                                        d="M6.53457 3.34302C6.52873 3.34367 6.52385 3.34432 6.51801 3.34692C6.52743 3.34432 6.53327 3.34302 6.53327 3.34302H6.53457Z"
+                                                        fill="#1E266D" />
+                                                    <path
+                                                        d="M4.67401 12.0658L4.67499 12.0639C4.63828 12.0353 4.59929 12.0093 4.56323 11.9788C4.62918 12.0324 4.67401 12.0658 4.67401 12.0658Z"
+                                                        fill="#1E266D" />
+                                                    <path
+                                                        d="M8.78854 6.96956C8.90387 7.20639 9.01498 7.4468 9.11862 7.6885C9.15468 7.77557 9.19041 7.86036 9.22517 7.94548C10.9288 7.73106 12.6071 8.09199 12.6789 8.10661C12.6675 6.9309 12.2468 5.85232 11.5513 5.00732C11.5415 5.02064 10.7466 6.17004 8.78854 6.96956Z"
+                                                        fill="#1E266D" />
+                                                    <path
+                                                        d="M8.56567 8.96808C5.63921 9.9885 4.68408 12.0443 4.67499 12.0638C5.51608 12.7204 6.57192 13.1151 7.72165 13.1151C8.4081 13.1151 9.0624 12.9754 9.65757 12.7223C9.58382 12.2889 9.29598 10.7705 8.59783 8.95703C8.58743 8.96125 8.57671 8.9645 8.56567 8.96808Z"
+                                                        fill="#1E266D" />
+                                                    <path
+                                                        d="M7.72198 0.157227C3.30371 0.157227 -0.278015 3.7396 -0.278015 8.15723C-0.278015 12.5755 3.30339 16.1566 7.72198 16.1566C12.1403 16.1566 15.722 12.5755 15.722 8.15723C15.722 3.7396 12.1399 0.157227 7.72198 0.157227ZM13.0713 10.4174C12.9261 10.7621 12.7458 11.0938 12.536 11.4034C12.3284 11.711 12.0899 11.9998 11.8271 12.2626C11.5643 12.5248 11.2758 12.7633 10.9684 12.9715C10.6582 13.1811 10.3255 13.361 9.9818 13.5069C9.63094 13.6547 9.26416 13.7684 8.8912 13.8451C8.5085 13.9237 8.11508 13.9637 7.72166 13.9637C7.32824 13.9637 6.93482 13.9237 6.55212 13.8451C6.17916 13.7684 5.81173 13.6547 5.46152 13.5069C5.11715 13.361 4.78481 13.1807 4.47455 12.9715C4.16755 12.7633 3.87841 12.5248 3.61591 12.2626C3.35309 11.9998 3.11463 11.7113 2.90704 11.4034C2.6975 11.0938 2.51752 10.7617 2.37165 10.4174C2.22351 10.0665 2.10948 9.69972 2.03281 9.32612C1.95516 8.94342 1.91553 8.55065 1.91553 8.15723C1.91553 7.7638 1.95516 7.37038 2.03281 6.98833C2.10948 6.61473 2.22351 6.2473 2.37165 5.89708C2.51752 5.55239 2.69782 5.22005 2.90704 4.91012C3.11463 4.60247 3.35309 4.3143 3.61591 4.05083C3.87841 3.78866 4.16722 3.55085 4.47455 3.34261C4.78481 3.13274 5.11715 2.95243 5.46152 2.80657C5.81173 2.6581 6.17916 2.54439 6.55212 2.46837C6.93482 2.3904 7.32824 2.35044 7.72166 2.35044C8.11508 2.35044 8.5085 2.3904 8.8912 2.46837C9.26416 2.54439 9.63094 2.6581 9.9818 2.80657C10.3258 2.95243 10.6582 3.13274 10.9684 3.34261C11.2754 3.55085 11.5643 3.78866 11.8271 4.05083C12.0899 4.3143 12.3284 4.60214 12.536 4.91012C12.7458 5.21972 12.9261 5.55239 13.0713 5.89708C13.2198 6.2473 13.3335 6.61473 13.4095 6.98833C13.4882 7.37038 13.5281 7.7638 13.5281 8.15723C13.5281 8.55065 13.4882 8.94342 13.4095 9.32612C13.3335 9.69972 13.2201 10.0665 13.0713 10.4174Z"
+                                                        fill="#1E266D" />
+                                                    <path
+                                                        d="M9.52762 8.72764C10.178 10.5151 10.4418 11.9705 10.4928 12.2694C11.6058 11.5183 12.3969 10.3254 12.6172 8.94336C12.5152 8.91054 11.1279 8.47132 9.52762 8.72764Z"
+                                                        fill="#1E266D" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_1_18">
+                                                        <rect width="16" height="16" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials__item">
+                                        <a class="socials__link" href="#">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_1_29)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M12.8691 0.0876972C13.5856 0.439197 16.501 6.7307 14.0139 12.2102C12.0165 16.6102 7.00226 16.6107 4.46051 15.0602C2.28951 13.7352 -1.02674 9.5607 2.64451 4.4632C2.79989 4.2697 3.17264 4.2872 3.08851 4.8717C3.02901 5.2867 2.49651 8.2662 3.51289 9.5607C3.97714 10.2082 4.08576 9.7617 4.08576 9.7617C4.08576 9.7617 4.00664 5.4262 7.30276 2.1347C9.39501 0.127697 12.2968 -0.193303 12.8691 0.0876972Z"
+                                                        fill="#1E266D" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_1_29">
+                                                        <rect width="16" height="16" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="footer__text"><a class="footer__link" href="#">Download now</a></li>
+                    <li class="footer__text"><a class="footer__link" href="#">Documentation</a></li>
+                </ul>
             </div>
-            <div class="footer__bg_dots">
-                <svg width="103" height="67" viewBox="0 0 103 67" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_1_10261)">
-                        <path
-                            d="M90.1575 58.5939C90.1575 59.9238 91.2356 61.0018 92.5655 61.0018C93.8954 61.0018 94.9734 59.9238 94.9734 58.5939C94.9734 57.264 93.8954 56.1859 92.5655 56.1859C91.2356 56.1859 90.1575 57.264 90.1575 58.5939Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M98.1841 66.6204C98.1841 67.9503 99.2622 69.0283 100.592 69.0283C101.922 69.0283 103 67.9503 103 66.6204C103 65.2905 101.922 64.2124 100.592 64.2124C99.2622 64.2124 98.1841 65.2905 98.1841 66.6204Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M74.1044 42.5408C74.1044 43.8707 75.1825 44.9487 76.5124 44.9487C77.8422 44.9487 78.9203 43.8707 78.9203 42.5408C78.9203 41.2109 77.8422 40.1328 76.5124 40.1328C75.1825 40.1328 74.1044 41.2109 74.1044 42.5408Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M82.131 50.5673C82.131 51.8972 83.209 52.9752 84.5389 52.9752C85.8688 52.9752 86.9469 51.8972 86.9469 50.5673C86.9469 49.2374 85.8688 48.1593 84.5389 48.1593C83.209 48.1593 82.131 49.2374 82.131 50.5673Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M74.1044 58.5939C74.1044 59.9238 75.1825 61.0018 76.5124 61.0018C77.8422 61.0018 78.9203 59.9238 78.9203 58.5939C78.9203 57.264 77.8422 56.1859 76.5124 56.1859C75.1825 56.1859 74.1044 57.264 74.1044 58.5939Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M82.131 66.6204C82.131 67.9503 83.209 69.0283 84.5389 69.0283C85.8688 69.0283 86.9469 67.9503 86.9469 66.6204C86.9469 65.2905 85.8688 64.2124 84.5389 64.2124C83.209 64.2124 82.131 65.2905 82.131 66.6204Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M58.0513 26.4877C58.0513 27.8176 59.1294 28.8956 60.4592 28.8956C61.7891 28.8956 62.8672 27.8176 62.8672 26.4877C62.8672 25.1578 61.7891 24.0797 60.4592 24.0797C59.1294 24.0797 58.0513 25.1578 58.0513 26.4877Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M66.0778 34.5142C66.0778 35.8441 67.1559 36.9221 68.4858 36.9221C69.8157 36.9221 70.8938 35.8441 70.8938 34.5142C70.8938 33.1843 69.8157 32.1062 68.4858 32.1062C67.1559 32.1062 66.0778 33.1843 66.0778 34.5142Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M58.0513 42.5408C58.0513 43.8707 59.1294 44.9487 60.4592 44.9487C61.7891 44.9487 62.8672 43.8707 62.8672 42.5408C62.8672 41.2109 61.7891 40.1328 60.4592 40.1328C59.1294 40.1328 58.0513 41.2109 58.0513 42.5408Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M66.0778 50.5673C66.0778 51.8972 67.1559 52.9752 68.4858 52.9752C69.8157 52.9752 70.8938 51.8972 70.8938 50.5673C70.8938 49.2374 69.8157 48.1593 68.4858 48.1593C67.1559 48.1593 66.0778 49.2374 66.0778 50.5673Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M58.0513 58.5939C58.0513 59.9238 59.1294 61.0018 60.4592 61.0018C61.7891 61.0018 62.8672 59.9238 62.8672 58.5939C62.8672 57.264 61.7891 56.1859 60.4592 56.1859C59.1294 56.1859 58.0513 57.264 58.0513 58.5939Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M66.0778 66.6204C66.0778 67.9503 67.1559 69.0283 68.4858 69.0283C69.8157 69.0283 70.8938 67.9503 70.8938 66.6204C70.8938 65.2905 69.8157 64.2124 68.4858 64.2124C67.1559 64.2124 66.0778 65.2905 66.0778 66.6204Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M50.0247 34.5142C50.0247 35.8441 51.1028 36.9221 52.4327 36.9221C53.7626 36.9221 54.8407 35.8441 54.8407 34.5142C54.8407 33.1843 53.7626 32.1062 52.4327 32.1062C51.1028 32.1062 50.0247 33.1843 50.0247 34.5142Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M41.9982 42.5408C41.9982 43.8707 43.0763 44.9487 44.4061 44.9487C45.736 44.9487 46.8141 43.8707 46.8141 42.5408C46.8141 41.2109 45.736 40.1328 44.4061 40.1328C43.0763 40.1328 41.9982 41.2109 41.9982 42.5408Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M50.0247 50.5673C50.0247 51.8972 51.1028 52.9752 52.4327 52.9752C53.7626 52.9752 54.8407 51.8972 54.8407 50.5673C54.8407 49.2374 53.7626 48.1593 52.4327 48.1593C51.1028 48.1593 50.0247 49.2374 50.0247 50.5673Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M41.9982 58.5939C41.9982 59.9238 43.0763 61.0018 44.4061 61.0018C45.736 61.0018 46.8141 59.9238 46.8141 58.5939C46.8141 57.264 45.736 56.1859 44.4061 56.1859C43.0763 56.1859 41.9982 57.264 41.9982 58.5939Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M50.0247 66.6204C50.0247 67.9503 51.1028 69.0283 52.4327 69.0283C53.7626 69.0283 54.8407 67.9503 54.8407 66.6204C54.8407 65.2905 53.7626 64.2124 52.4327 64.2124C51.1028 64.2124 50.0247 65.2905 50.0247 66.6204Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M33.9716 50.5673C33.9716 51.8972 35.0497 52.9752 36.3796 52.9752C37.7095 52.9752 38.7875 51.8972 38.7875 50.5673C38.7875 49.2374 37.7095 48.1593 36.3796 48.1593C35.0497 48.1593 33.9716 49.2374 33.9716 50.5673Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M25.9451 58.5939C25.9451 59.9238 27.0231 61.0018 28.353 61.0018C29.6829 61.0018 30.761 59.9238 30.761 58.5939C30.761 57.264 29.6829 56.1859 28.353 56.1859C27.0231 56.1859 25.9451 57.264 25.9451 58.5939Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M33.9716 66.6204C33.9716 67.9503 35.0497 69.0283 36.3796 69.0283C37.7095 69.0283 38.7875 67.9503 38.7875 66.6204C38.7875 65.2905 37.7095 64.2124 36.3796 64.2124C35.0497 64.2124 33.9716 65.2905 33.9716 66.6204Z"
-                            fill="#A29BFE" />
-                        <path
-                            d="M17.9185 66.6204C17.9185 67.9503 18.9966 69.0283 20.3265 69.0283C21.6563 69.0283 22.7344 67.9503 22.7344 66.6204C22.7344 65.2905 21.6563 64.2124 20.3265 64.2124C18.9966 64.2124 17.9185 65.2905 17.9185 66.6204Z"
-                            fill="#A29BFE" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_1_10261">
-                            <rect width="75.2662" height="102.636" fill="white" transform="translate(103) rotate(90)" />
-                        </clipPath>
-                    </defs>
-                </svg>
+            <div class="footer__privacy privacy">
+                <p class="privacy__copyright">
+                    Copyright © 2020 tempy.club
+                </p>
+                <ul class="privacy__list">
+                    <li class="privacy__item">
+                        <a class="privacy__link" href="#">Privacy policy</a>
+                    </li>
+                    <li class="privacy__item">
+                        <a class="privacy__link" href="#">Terms of Use</a>
+                    </li>
+                    <li class="privacy__item">
+                        <a class="privacy__link privacy__link_gdpr" href="#">Gdpr</a>
+                    </li>
+                </ul>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 
 </html>
